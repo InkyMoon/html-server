@@ -1,4 +1,4 @@
-package HTMLServer;
+package HTTP;
 
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.io.IOException;
  *
  * @author Patrick Kastelic <patrick.kastelic@gmail.com>
  */
-public class HTTP {
+public class GetHandler {
 
     private static final String CRLF = "\r\n";
     private static final String HTTP_VER = "HTTP/1.0";

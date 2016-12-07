@@ -1,4 +1,4 @@
-package HTMLServer;
+package HTTPServer;
 
 import java.io.IOException;
 import java.net.ServerSocket;

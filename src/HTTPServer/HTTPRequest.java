@@ -1,5 +1,6 @@
-package HTMLServer;
+package HTTPServer;
 
+import HTTP.GetHandler;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -81,7 +82,7 @@ public class HTTPRequest extends Thread {
     private void Get(String filepath) {
         try
         {
-            HTTP.get(filepath, writeSock);
+            GetHandler.get(filepath, writeSock);
         }
         catch (IOException ex)
         {
