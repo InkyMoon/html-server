@@ -8,9 +8,10 @@ import java.net.Socket;
 import java.util.StringTokenizer;
 
 /**
- * A HTTP 1.0 server thread. Handles a single HTTP request. Currently supports
- * only the GET command, all other commands will print an error and disconnect
- * from the client.
+ * A HTTP 1.0 server thread.
+ *
+ * Handles a single HTTP request. Currently supports only the GET command, all
+ * other commands will print an error and disconnect from the client.
  *
  * @author Patrick Kastelic <patrick.kastelic@gmail.com>
  */

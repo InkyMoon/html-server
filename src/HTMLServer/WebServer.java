@@ -5,8 +5,9 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * A HTTP 1.0 server. Waits for incoming connections and handles each on a
- * separate thread.
+ * A HTTP 1.0 server.
+ *
+ * Waits for incoming connections and handles each on a separate thread.
  *
  * @author Patrick Kastelic <patrick.kastelic@gmail.com>
  */
