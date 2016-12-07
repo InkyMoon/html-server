@@ -65,6 +65,9 @@ public class HTTPRequest extends Thread {
                 case "GET":
                     Get(st.nextToken());
                     break;
+                case "HEAD":
+                    Head(st.nextToken());
+                        break;
                 default:
                     System.out.println("Unsupported command received: " + command);
             }
@@ -87,6 +90,18 @@ public class HTTPRequest extends Thread {
         catch (IOException ex)
         {
             System.out.println("Could not send file to client.");
+        }
+    }
+    
+    private void Head(String filepath) {
+        try
+        {
+            System.out.println("Method not yet supported: " + "HEAD");
+        }
+        catch (Exception ex)
+        {
+            System.out.println("Unknown exception ocurred: ");
+            ex.printStackTrace();
         }
     }
 }
